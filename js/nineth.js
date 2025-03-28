@@ -56,3 +56,24 @@
 // }
 
 // console.log(checkForSpam("Mango tell sale right now!"));
+
+
+// let input = prompt("Будь ласка введіть число");
+// let numbers = [];
+// let total;
+// numbers.push(input);
+// console.log(numbers)
+// for(let i = 0; i < numbers.length - 1; i += 0){
+
+//     if(input === null || input === ''){
+//         if(numbers !== ''){
+//             total = numbers[i] + numbers[i + 1]
+//             console.log(`Загальна сума чисел дорівнює ${total}`)
+//         } else {
+//             console.log("Wrong!!!")
+//         }
+//      } else{
+//         input = prompt("Будь ласка введіть число");
+//      }
+// }
+// 6 трохи не вийшло :(

@@ -31,3 +31,28 @@
 // return `Найдовше слово = ${theLongestWord}`;
 // }
 // console.log(findLongestWord("Mago eat bananas"));
+
+
+// const formatString = function(string){
+//     string = string.split("")
+// if(string.length <= 40){
+//     return string.join(" ");
+// } else {
+//     string.length = 40;
+//     string.push("...");
+//     return string.join(" ");
+// }
+// }
+// // console.log(formatString("У всякого своя доля І свій шлях широкий")); // 38 //
+// console.log(formatString("У всякого своя доля І свій шлях широкий Той мурує, той руйнує,")); // 60 //
+
+
+// const checkForSpam = function(message){
+//     if(message.includes("spam") || message.includes("sale")){
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+// console.log(checkForSpam("Mango tell sale right now!"));

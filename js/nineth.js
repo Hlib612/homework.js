@@ -1,7 +1,5 @@
-// let array = [let i = 0; i < array.length; i += 1];
-// let item;
-// let n = 0;
 // const loglogItems = function(array){
+// let n = 0;
 //     for(item of array){
 //         // console.log(item)
 //         console.log(`${n += 1} - ${item}`)
@@ -32,30 +30,32 @@
 // }
 // console.log(findLongestWord("Mago eat bananas"));
 
-
+// let arr;
 // const formatString = function(string){
-//     string = string.split("")
+//     arr = string.split("")
 // if(string.length <= 40){
-//     return string.join(" ");
+//     return arr.join(" ");
 // } else {
-//     string.length = 40;
-//     string.push("...");
-//     return string.join(" ");
+//     arr.length = 40;
+//     arr.push("...");
+//     return arr.join(" ");
 // }
 // }
 // // console.log(formatString("У всякого своя доля І свій шлях широкий")); // 38 //
-// console.log(formatString("У всякого своя доля І свій шлях широкий Той мурує, той руйнує,")); // 60 //
+// // console.log(formatString("У всякого своя доля І свій шлях широкий Той мурує, той руйнує,")); // 60 //
 
-
+// let massegeRegistered;
 // const checkForSpam = function(message){
-//     if(message.includes("spam") || message.includes("sale")){
+//     massegeRegistered = message.toLowerCase();
+//     console.log(massegeRegistered);
+//     if(massegeRegistered.includes("spam") || massegeRegistered.includes("sale")){
 //         return true;
 //     } else {
 //         return false;
 //     }
 // }
 
-// console.log(checkForSpam("Mango tell sale right now!"));
+// console.log(checkForSpam("Mango tell SALE right now!"));
 
 
 // let input = prompt("Будь ласка введіть число");

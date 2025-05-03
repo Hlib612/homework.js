@@ -36,31 +36,26 @@
 // }
 // console.log(bankAccount);
 
-// const temp = prompt("Введіть температуру");
+
 // const weather = {
+//     temp : prompt("Введіть температуру"),
 //     temperature: 0,
 //     humidity: 0,
 //     windSpeed: 0,
 //     belowZero (temp) {
-//         let qeshion;
+//         let answer;
 //        if(Number(temp) < 0){
-//         qeshion = true;
-//        } else if(Number(temp) >= 0){
-//         qeshion = false;
-//        } else {
-//         alert("Неправильне значення");
-//        }
-//        if(qeshion == true){
-//          alert("температура нижче 0 градусів Цельсія")
-//        } else{
-//          alert("температура вище 0 градусів Цельсія")
+//         answer = true;
+//         console.log(answer)
+//         return answer;
+//        } else if(Number(temp) > 0 || Number(temp) === 0){
+//         answer = false;
+//         console.log(answer)
+//         return answer;
 //        }
 //     },
+//     // if(belowZero(temp) == true){
+
+//     // }
+    
 // }
-// console.log(belowZero(1));
-
-
-// const user = {
-  
-// }
-

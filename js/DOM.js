@@ -8,14 +8,12 @@ pictureJs.src = "https://firtka.if.ua/media/cache/blog_thumb/data/blog/266413/16
 const avocadoLinkJs = document.querySelector('.link_js');
 avocadoLinkJs.href = "https://en.wikipedia.org/wiki/Apple";
 
-// const fruitsImgJs = documents.querySelector('img_js');
-// fruitsImgJs.src = "https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg";
-// fruitsImgJs.alt = "apple";
-// console.log(fruitsImgJs.alt);
-// не спрацювало
+const fruitsImgJs = document.querySelector('.img_js');
+fruitsImgJs.src = "https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg";
+fruitsImgJs.alt = "apple";
+console.log(fruitsImgJs.alt);
 
-const fruitListJs = document.querySelector('list_js');
+const fruitListJs = document.querySelector('.list_js');
 console.log(fruitListJs);
-// const fruitListJsFirstChild = fruitListJs.firstElementChild;
-// fruitListJsFirstChild.textContent = "Pineapple";
-// не спрацювало
+const fruitListJsFirstChild = fruitListJs.firstElementChild;
+fruitListJsFirstChild.textContent = "Pineapple";

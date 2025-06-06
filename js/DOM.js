@@ -17,3 +17,8 @@ const fruitListJs = document.querySelector('.list_js');
 console.log(fruitListJs);
 const fruitListJsFirstChild = fruitListJs.firstElementChild;
 fruitListJsFirstChild.textContent = "Pineapple";
+
+
+// Homework 2
+const parentList = document.querySelector(".homework_2_lis");
+console.log(parentList);
